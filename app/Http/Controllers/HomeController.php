@@ -30,4 +30,9 @@ class HomeController extends Controller
     {
         return view('index');
     }
+    
+    public function control()
+    {
+        return View("admin.control");
+    }
 }

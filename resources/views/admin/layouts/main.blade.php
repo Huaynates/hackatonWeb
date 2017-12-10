@@ -68,90 +68,11 @@
       </ul>
       <div class="patreon-ad"><a href="#" target="_blank" class="waves-effect">Cuidar el agua, más que nunca</a></div>
     </header>
-    <main>      <div class="section no-pad-bot" id="index-banner">
-        <div class="container">
-          
-          <div class="row center">
-
-          <div class="buysellads-header buysellads-homepage row center">
-            <div id="collapsible" class="section scrollspy">
-        <div class="row">
-          <div class="col s12">
-
-            <h2 class="header">Bienvenido estimado administrador</h2>
-
-            <ul class="collapsible" data-collapsible="accordion">
-              <li>
-                <div class="collapsible-header"><i class="material-icons">filter_drama</i>First<span class="new badge">4</span></div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-              <li>
-                <div class="collapsible-header"><i class="material-icons">place</i>Second<span class="badge">1</span></div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-          </div>
-        </div>
-      </div>
-
+    <main>
       <div class="container">
-        <div class="section">
-
-          <div class="row">
-            <div class="col s12 m8 offset-m2">
-              <br>
-              <img id="responsive-img" src="images/responsive.png">
-            </div>
-          </div>
-
-          <!--   Promo Section   -->
-          
-
-        </div>
-        <div class="divider"></div>
-        <div class="section">
-          <div class="row center">
-            
-          </div>
-        </div>
-        <div class="divider"></div>
-        <div class="section">
-          <div class="row center">
-            
-          </div>
-        </div>
+         
       </div>
-      <div class="fixed-action-btn horizontal click-to-toggle">
-    <a class="btn-floating btn-large danger">
-      <i class="material-icons">menu</i>
-    </a>
-    <ul>
-      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-    </ul>
-  </div>
-    </main>    <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          
-        </div>
-        <div class="row">
-          <div class="col s12">
-            <h5 class="white-text">Patreon Sponsors</h5>
-          </div>
-          <div class="col l3 s12">
-            <div class="patreon-footer-ad">
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    </main>
 
     <!--  Scripts-->
     <script src="{{ asset('assets/js/jquery-3.2.1.min.js')}}"></script>

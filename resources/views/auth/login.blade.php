@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Acceso - M&S</title>
+    <title>Acceso</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="icon" type="image/png" href="../assets/img/icono.png" />
     <link rel="stylesheet" href="{{ asset('inicio/css/main.css')}}">
 </head>
-<body class="cover" style="background-image: url('assets/img/ss.jpg');">
-   <nav class="navbar navbar-info" style="box-shadow: 0px 0px 30px #fff;">
+<body class="cover" style="background-image: url('assets/images/sdirbar.png');">
+   <nav class="navbar" style="box-shadow: 0px 0px 30px #fff; background-color: #EE6E73">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-4">
                     <ul class="nav navbar-nav col-md-offset-2">
-                        <li><a href="#">¡Te deseamos éxitos y bendiciones para su negocio! </a></li>
+                        <li><a href="#">Miles han vivido sin amor, pero ni uno si agua. </a></li>
                     </ul>
                 </div>
             </div>
@@ -44,13 +44,14 @@
                 @endif
             </div>
         </div>
-        <div class="form-group label-floating">
-            <a href="{{ url('/password/reset')}}">¿Olvidaste tu Contraseña?</a>
-        </div>
         <div class="form-group text-center">
             <input type="submit" value="Iniciar sesión" class="btn btn-raised btn-danger">
+            <div class="form-group label-floating text-center">
+                <a href="#" data-toggle="modal" data-target="#dataRegister">Registrarse</a>
+            </div>
         </div>
     </form> 
+    @include('admin.administradores.modal_agregar')
     
     <!--====== Scripts -->
     <script src="{{ asset('inicio/js/jquery-3.1.1.min.js')}}"></script>

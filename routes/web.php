@@ -24,7 +24,7 @@ Route::get('/', 'Controller@index')->name('index');
 Route::get("register","Register@register");
 
 //home de administrador 
-Route::resource("admin/home","HomeControler@home");
-Auth::routes();
+Route::get('/admin/home', 'HomeController@home');
+Route::get('/admin/control', 'HomeController@control');
 
-Route::get('/home', 'HomeController@index');
+Auth:
